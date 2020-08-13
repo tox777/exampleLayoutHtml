@@ -1,0 +1,87 @@
+* {
+	margin:0;
+	padding: 0;
+}
+
+body {
+	background: #e6e6e6;
+}
+
+header, .main, footer{
+	background: #FFF;
+	width: 90%;
+	max-width: 1000px;
+	margin: 20px auto; 
+}
+
+
+header nav{
+
+	background: #528FD5;
+	overflow: hidden; /*para ocultar el contenido que sobrepasa el contenedor, nos limpia los floats left*/
+}
+
+
+header nav ul{
+	list-style: none;
+	
+}
+
+header nav ul li{
+	float: left
+}
+
+
+header nav ul li a{
+	padding: 10px 20px;
+	display: block; 
+	color: #fff;
+	text-decoration: none;
+}
+
+header nav ul li a:hover{
+	background: #75ACEC;
+	
+}
+
+
+.main .articles{
+    display: inline-block;
+	width: 68%;
+	float: left;
+	background: #fff;
+	margin-right: 1.5%
+}
+
+
+aside {
+    
+	width: 30%;
+	background: #ff8000;
+	padding: 20px;
+	float: left;
+        box-sizing: border-box;
+}
+
+.main .articles article{
+	padding: 20px;
+	background: #fff;
+	margin-bottom: 20px;
+        float: left;
+        width: 94%;
+}
+
+
+
+
+footer {
+
+	background: #fff;
+	clear: both;
+	text-align:center
+}
+
+
+
+
+
