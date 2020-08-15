@@ -1,0 +1,38 @@
+form {
+    width: 25%;
+    border: 1px solid #CCC;
+    margin: 20px;
+    padding: 20px;
+}
+
+label {
+    font-size: 12px;
+    display: block;
+    width: 100%;
+
+}
+
+input, textarea{
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 10px;
+}
+
+input:focus, textarea:focus{
+    border: 1px solid #1668C4;
+
+}
+
+
+textarea{
+    resize: vertical;
+    min-height: 100px;
+
+}
+
+input[type="submit"]{
+    margin-bottom: 0px;
+    background: #1668C4;
+    color: #FFF;
+    border: none;
+}
